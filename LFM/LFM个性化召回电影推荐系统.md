@@ -40,3 +40,6 @@ $$
 ##### 模型的求解算法_——_ALS交替最小二乘法
 
 <img src="C:\Users\56234\AppData\Roaming\Typora\typora-user-images\image-20240228202024711.png" alt="image-20240228202024711" style="zoom:67%;" />
+
+根据电影的标签（名称，类别）、用户（对某些电影的评分）对某个用户进行推荐
+首先是LFM得出用户向量，电影向量train模型，然后相乘选取某个用户评分前十的推荐电影进行推荐
